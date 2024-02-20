@@ -22,6 +22,7 @@ public class Greedy_04 {
 
         int result = 0;
         while(n != 1){
+            // N이 K로 나누어 떨어지면 K로 나눠준다. 최대한 많이 나눠야 최소 횟수를 구할 수 있기 때문에
             if(n % k == 0){
                 n /= k;
             }else{
